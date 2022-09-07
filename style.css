@@ -42,6 +42,7 @@ body{
     }
     @keyframes blink {
         100% {font-size: 20px;font-weight: bold;}
+        50% {color: rgb(64, 152, 152);}
         
     }
     @keyframes cntrbox {
@@ -72,22 +73,12 @@ body{
         position:absolute;
     }
     .foot{
-        animation: blink 5s infinite;
         position: fixed;
         right: 110px;
         bottom: 0;
     }
     .foot-txt{
         color:rgb(179, 12, 182);
-        font-family:cursive
+        font-family:cursive;
+        animation: blink 5s infinite;
     }
-    .size{
-        height: 50px;
-        width: 40px;
-        position: absolute;
-        left: 300px;
-        background-color: rgb(161, 204, 242);
-        animation: mymov 5s ;
-        
-    }
-    
