@@ -32,7 +32,7 @@ body{
         height: 337px;
         border-radius: 50%;
         background: #1b1919;
-        animation: circle2 10s 3;
+        animation: circle2 10s infinite;
     }
     
     @keyframes circle2 {
